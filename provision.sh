@@ -23,11 +23,3 @@ $VE_DIR/bin/pip install -r $CODE_DIR/requirements.txt
 chown -R vagrant $VE_DIR
 chgrp -R vagrant $VE_DIR
 
-#Run syncdb and create admin user
-if [ ! -e /home/vagrant/.provisioned ]
-then
-    (cd $CODE_DIR/django_ecommerce && $VE_DIR/bin/python manage.py syncdb --noinput)
-    (cd $CODE_DIR/django_ecommerce && $VE_DIR/bin/python manage.py update_admin_user --username=admin --password=admin)
-
-    touch /home/vagrant/.provisioned
-fi
