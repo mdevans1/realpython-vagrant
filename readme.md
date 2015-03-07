@@ -1,4 +1,6 @@
-> not ready for consumption yet ...
+Forked and not ready for consumption yet ...
+
+## Changed to Ubuntu Trusty64
 
 ## Setting up your Real Python Vagrant Box
 

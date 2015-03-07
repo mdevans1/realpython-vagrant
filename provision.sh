@@ -10,7 +10,7 @@ apt-get install -y postgresql postgresql-contrib
 #Install python packages
 apt-get install -y python python-dev python-setuptools
 easy_install pip
-pip install setuptools --no-use-wheel --upgrade
+#pip install setuptools --no-use-wheel --upgrade
 pip install virtualenv
 
 #Create postgres user / database
