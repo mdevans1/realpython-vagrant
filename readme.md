@@ -15,7 +15,7 @@ Let's get you setup!
 
 ### Setup
 
-1. Clone this repo: `git clone git@github.com:realpython/realpython-vagrant.git`
+1. Clone this repo: `git clone git@github.com:mdevans1/realpython-vagrant.git`
 1. Start the Vagrant box: `vagrant up`
 1. Start the Django Development Server: `sh run.sh`
 1. When done, Kill the Django Server, the run `vagrant halt` to shut down the box
